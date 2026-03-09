@@ -27,7 +27,10 @@ const RelatedPersonSay = ({
       <img 
         src={img_url}
         // src="/images/sample.png"
-        className="w-full h-auto max-w-[400px]" 
+        className="w-full h-auto max-w-[400px]"
+        alt={articleTitle || "Article image"}
+        loading="lazy"
+        decoding="async"
       />
       <h1 className="font-bold text-2xl">{articleTitle}</h1>
       <p className="line-clamp-2 text-base">{articleSubtitle}</p>

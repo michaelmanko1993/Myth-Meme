@@ -13,23 +13,31 @@ const Poetry = () => {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-5">
           <img
             src="/poems/1.png"
-            alt="Poetry"
+            alt="Poetry 1"
             className="mx-auto max-w-[400px] rounded-lg w-full shadow-[0px_4px_30px_rgba(255,255,255,0.6)]"
+            loading="lazy"
+            decoding="async"
           />
           <img
             src="/poems/5.png"
-            alt="Poetry"
+            alt="Poetry 5"
             className="mx-auto max-w-[400px] rounded-lg w-full shadow-[0_4px_30px_rgba(255,255,255,0.6)]"
+            loading="lazy"
+            decoding="async"
           />
           <img
             src="/poems/10.png"
-            alt="Poetry"
+            alt="Poetry 10"
             className="mx-auto max-w-[400px] rounded-lg w-full shadow-[0_4px_30px_rgba(255,255,255,0.6)]"
+            loading="lazy"
+            decoding="async"
           />
           <img
             src="/poems/8.png"
-            alt="Poetry"
+            alt="Poetry 8"
             className="mx-auto max-w-[400px] rounded-lg w-full shadow-[0_4px_30px_rgba(255,255,255,0.6)]"
+            loading="lazy"
+            decoding="async"
           />
         </div>
         <button className="rounded-xl bg-white px-4 py-2 font-blackOpsOne text-black transition-transform duration-300 hover:scale-105">

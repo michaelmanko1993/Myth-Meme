@@ -62,7 +62,9 @@ const LatestNews = () => {
           // src="/images/sample.png"
           src={mostPopularArticle.img_url}
           className="w-full rounded-xl md:rounded-3xl max-w-[400px]"
-          alt="Latest news article"
+          alt={mostPopularArticle.title || "Latest news article"}
+          loading="lazy"
+          decoding="async"
         />
       </div>
     </div>

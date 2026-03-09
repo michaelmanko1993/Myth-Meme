@@ -60,6 +60,7 @@ const CharacterCard: FC<CharacterCardProps> = ({ character, size = 'medium' }) =
           alt={character.name}
           className="w-full h-full object-cover object-top"
           loading="lazy"
+          decoding="async"
         />
         <div className="absolute top-2 right-2">
           <span className={`px-2 py-1 rounded-full text-xs font-bold ${getRarityColor(character.rarity)}`}>
